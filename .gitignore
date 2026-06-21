@@ -9,3 +9,10 @@ server_err.log
 .DS_Store
 static/
 dist/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
