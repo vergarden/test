@@ -1,0 +1,64 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" fill="none">
+  <!-- Dark navy circular badge -->
+  <circle cx="100" cy="100" r="96" fill="#0B1A2E"/>
+  <circle cx="100" cy="100" r="92" fill="none" stroke="#E60012" stroke-width="1.5"/>
+
+  <!-- Orbital trajectory arc (gold) - Chinese aerospace circular orbit motif -->
+  <path d="M 20 90 A 80 80 0 0 1 130 20" stroke="#D4AF37" stroke-width="2" opacity="0.5"/>
+
+  <!-- Second orbital arc (inner) -->
+  <path d="M 35 100 A 65 65 0 0 1 120 35" stroke="#D4AF37" stroke-width="1" opacity="0.3"/>
+
+  <!-- Diagonal constructivist accent lines (bottom-left area) -->
+  <line x1="30" y1="170" x2="58" y2="148" stroke="#E60012" stroke-width="1.5" opacity="0.3"/>
+  <line x1="36" y1="178" x2="64" y2="156" stroke="#fff" stroke-width="1" opacity="0.15"/>
+
+  <!-- Geometric accent (top-right corner) -->
+  <line x1="172" y1="28" x2="190" y2="10" stroke="#E60012" stroke-width="1.5" opacity="0.35"/>
+  <line x1="178" y1="34" x2="196" y2="16" stroke="#D4AF37" stroke-width="1" opacity="0.25"/>
+
+  <!-- === ROCKET (pure geometric construction) === -->
+  <!-- 30-degree diagonal ascent -->
+  <g transform="translate(100,100) rotate(-30)">
+
+    <!-- Rocket body (geometric rectangle) -->
+    <rect x="-10" y="-8" width="20" height="44" rx="1" fill="#E60012"/>
+
+    <!-- Nose cone (sharp triangle) -->
+    <polygon points="0,-48 -10,-8 10,-8" fill="#E60012"/>
+
+    <!-- Nose tip highlight (gold) -->
+    <polygon points="0,-48 -3,-18 0,-24" fill="#D4AF37" opacity="0.6"/>
+
+    <!-- Porthole window (circle) -->
+    <circle cx="0" cy="8" r="7" fill="#0B1A2E" stroke="#fff" stroke-width="1.8"/>
+    <circle cx="0" cy="8" r="2.5" fill="#fff"/>
+
+    <!-- Body center line (constructivist vertical accent) -->
+    <line x1="0" y1="-6" x2="0" y2="32" stroke="#fff" stroke-width="0.8" opacity="0.2"/>
+
+    <!-- Left fin (right triangle) -->
+    <polygon points="-10,24 -20,42 -10,36" fill="#E60012"/>
+    <!-- Left fin inner fold (constructivist facet) -->
+    <polygon points="-10,24 -14,32 -10,32" fill="#C1121F" opacity="0.5"/>
+
+    <!-- Right fin (right triangle) -->
+    <polygon points="10,24 20,42 10,36" fill="#E60012"/>
+    <!-- Right fin inner fold -->
+    <polygon points="10,24 14,32 10,32" fill="#C1121F" opacity="0.5"/>
+
+    <!-- Exhaust thrust (three parallel strokes) -->
+    <line x1="-5" y1="36" x2="-9" y2="52" stroke="#fff" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+    <line x1="0" y1="36" x2="0" y2="58" stroke="#fff" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+    <line x1="5" y1="36" x2="9" y2="52" stroke="#fff" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Thrust glow (horizontal nozzle accent) -->
+    <line x1="-7" y1="38" x2="7" y2="38" stroke="#D4AF37" stroke-width="1" opacity="0.5"/>
+
+  </g>
+
+  <!-- Speed trails (geometric diagonal dashes) -->
+  <line x1="62" y1="148" x2="50" y2="160" stroke="#fff" stroke-width="1" stroke-linecap="round" opacity="0.2"/>
+  <line x1="68" y1="142" x2="56" y2="154" stroke="#fff" stroke-width="0.8" stroke-linecap="round" opacity="0.15"/>
+
+</svg>
